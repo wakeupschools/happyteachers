@@ -1,0 +1,762 @@
+<!doctype html>
+<html class="nicescroll" lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>DEUSONE - Multipurpose OnePage Template</title>
+		<meta name="Author" content="Dorin Grigoras [https://wrapbootstrap.com/user/stepofweb]" />
+
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/html5.js"></script>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/respond.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+		<![endif]--> 
+
+		<!-- GOOGLE FONTS -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS FRAMEWORK -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+
+		<!-- PLUGINS -->
+		<link href="assets/plugins/jquery-owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/jquery-owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/prettyPhoto/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/jquery-bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+
+		<!-- CSS TEMPLATE -->
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/shop.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color/orange.css" rel="stylesheet" type="text/css" /><!-- demo default style -->
+
+
+		<!-- colors : demo only -->
+		<link href="assets/css/color/blue.css" rel="alternate stylesheet" type="text/css" title="blue" />
+		<link href="assets/css/color/orange.css" rel="alternate stylesheet" type="text/css" title="orange" />
+		<link href="assets/css/color/green.css" rel="alternate stylesheet" type="text/css" title="green" />
+		<link href="assets/css/color/red.css" rel="alternate stylesheet" type="text/css" title="red" />
+		<link href="assets/css/color/yellow.css" rel="alternate stylesheet" type="text/css" title="yellow" />
+		<link href="assets/css/color/gray.css" rel="alternate stylesheet" type="text/css" title="gray" />
+		<link href="assets/css/color/pink.css" rel="alternate stylesheet" type="text/css" title="pink" />
+		<link href="assets/css/color/mauve.css" rel="alternate stylesheet" type="text/css" title="mauve" />
+
+		<!-- ICONS -->
+		<link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+		<!-- STYLESWITCHER -->
+		<link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css"/>
+
+	</head>
+	<body>
+
+
+
+		<!-- STYLESWITCHER -->
+		<div id="switcher">
+			<div class="content-switcher" >        
+				<h4>STYLE OPTIONS</h4>
+
+				<p>Color Skin:</p>
+				<ul style="width:150px;">            
+					<li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" class="color" style="background-color:#F07057"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" class="color" style="background-color:#50657B"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('green'); return false;" class="color" style="background-color:#6aa018"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('red'); return false;" class="color" style="background-color:#e93735"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('pink'); return false;" class="color" style="background-color:#f73f69"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('mauve'); return false;" class="color" style="background-color:#c91ac9"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" class="color" style="background-color:#f1c40f"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('gray'); return false;" class="color" style="background-color:#333333"></a></li>
+				</ul>        
+
+				<p>Home Page Template:</p>
+				<div class="styled-select">
+					<select onchange="window.document.location.href=this.options[this.selectedIndex].value;">  
+						
+						<optgroup label="Standard">
+							<option selected="selected">01. Fullscreen Slider</option>
+							<option value="index-2.html">02. Image Only</option>
+						</optgroup>
+
+						<optgroup label="Video Frame &amp; Parallax">
+							<option value="index-3.html">03. Parallax &amp; Video - full</option>
+							<option value="index-4.html">04. Parallax &amp; Video - Normal</option>
+						</optgroup>
+
+						<optgroup label="Text &amp; Parallax">
+							<option value="index-5.html">05. Text with Parallax Bg</option>
+							<option value="index-6.html">06. Text Only - Normal</option>
+							<option value="index-7.html">07. Text Only - Full</option>
+						</optgroup>
+
+						<optgroup label="Video Background">
+							<option value="index-8.html">08. Video Background - Full</option>
+							<option value="index-9.html">09. Video Background - Normal</option>
+						</optgroup>
+
+					</select>
+				</div>
+
+				<div id="hideSwitcher">&times;</div>
+			</div>
+		</div>
+		<div id="showSwitcher"><i class="fa fa-tint"></i></div>
+		<!-- /STYLESWITCHER -->
+
+
+
+
+		<!-- SHOP NAME -->
+		<section class="page-name parallax" data-stellar-background-ratio="0.5" style="background-image:url(assets/images/preview/slider/parallax_bg.jpg)">
+			<span class="overlay"></span>
+			<span class="name">
+				Hey look<b>,</b> a Parallax section<b>!</b>
+				<i class="fa fa-compress"></i>
+			</span>
+		</section>
+
+
+
+
+		<!-- HEADER -->
+		<header id="header">
+			<div class="container">
+
+				<!-- LOGO -->
+				<a href="index-1.html" class="pull-left"><img src="assets/images/logo.png" height="60" alt="welcome" /></a>
+
+				<!-- MOBILE MENU -->
+				<button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
+
+				<!-- NAV MENU -->
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav navbar-right"><!-- id="onepageNav" for homepage only -->
+						<li><a href="#home">HOME</a></li>
+						<li><a href="index-1.html#services">SERVICES</a></li>
+						<li><a href="index-1.html#skills">SKILLS</a></li>
+						<li><a href="index-1.html#portfolio">PORTFOLIO</a></li>
+						<li><a href="index-1.html#team">TEAM</a></li>
+						<li><a href="index-1.html#pricing">PRICING</a></li>
+						<li><a href="index-1.html#contact">CONTACT</a></li>
+						<li class="dropdown">
+							<a class="external dropdown-toggle" href="blog-with-sidebar.html" data-toggle="dropdown">BLOG <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="blog-with-sidebar.html">With Sidebar</a></li>
+								<li><a class="external" href="blog-with-sidebar-post.html">Post With Sidebar</a></li>
+								<li><a class="external" href="blog-without-sidebar.html">Without Sidebar</a></li>
+								<li><a class="external" href="blog-without-sidebar-post.html">Post Without Sidebar</a></li>
+							</ul>
+						</li>
+						<li class="dropdown active">
+							<a class="external dropdown-toggle" href="shop-without-drag.html" data-toggle="dropdown">SHOP <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="shop-without-drag.html">Shop Without Drag</a></li>
+								<li><a class="external" href="shop-cart.html">Shop Cart</a></li>
+								<li><a class="external" href="shop-product.html">Shop Product</a></li>
+								<li class="active"><a class="external" href="shop-with-cart.html">Draggable With Cart</a></li>
+								<li><a class="external" href="shop-without-cart.html">Draggable Without Cart</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="external dropdown-toggle" href="#" data-toggle="dropdown">FEATURES <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="typography.html">Typography</a></li>
+								<li><a class="external" href="elements.html">Elements</a></li>
+								<li><a class="external" href="slider.html">Sliders</a></li>
+								<li><a class="external" href="icons.html">Icons</a></li>
+								<li><a class="external" href="404.html">Not Found 404</a></li>
+								<li><a class="external" href="presentation-page.html">Presentation Page</a></li>
+								<li><a class="external" href="presentation-page-with-slider.html">Presentation Page Slider</a></li>
+								<li><a class="external" href="coming_soon.html">Coming Soon Page</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<!-- /NAV MENU -->
+
+			</div>
+		</header>
+		<!-- /HEADER -->
+
+
+
+
+		<!-- PRODUCT LIST -->
+		<section id="shop">
+
+			<div class="container iScroll">
+				<span id="dragInfoText">
+					DRAG LEFT AND RIGHT TO VIEW MORE
+				</span>
+
+				<div id="dragInfo"></div>
+
+				<div id="iscrollWrapper">
+
+					<div id="scroller" class="dragCursor">
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/1.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/2.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/3.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/4.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/5.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/9.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/6.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/7.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/8.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/5.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/6.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/7.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/8.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product-ajax.html">
+								<img src="assets/images/preview/content/shop/1.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- INDICATOR - SCROLL POSITION -->
+				<div id="indicator"><div id="indicator-line"></div></div>
+				<!-- /INDICATOR - SCROLL POSITION -->
+
+
+
+
+				<!-- PRODUCT DETAIL -->
+				<section id="product_info" class="nicescroll">
+					<button id="closeProduct"></button>
+					<div id="productContent"><!-- ajax : shop-product-ajax.html --></div>
+				</section>
+				<!-- /PRODUCT DETAIL -->
+
+
+
+			</div>
+			
+		</section>
+		<!-- /PRODUCT LIST -->
+
+
+
+		<!-- BRANDS -->
+		<section id="brands">
+			<div class="container">
+
+				<!-- BRANDS CAROUSEL -->
+				<div class="owl-carousel" data-navigation="false" data-singleitem="false" data-autoplay="true" data-animation="bounceIn">
+					<div class="item dragCursor"><img src="assets/images/preview/brands/8.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/1.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/2.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/3.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/4.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/5.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/6.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/7.png" height="60" alt="..." /></div>
+				</div>
+
+			</div>
+		</section>
+		<!-- BRANDS -->
+		
+		
+		
+		
+		
+		<!-- SHOP CART -->
+		<section id="cart"> <!-- add class="hide" to hide it invisible on load - will be visible only when a product is added to cart -->
+
+			<div class="container">
+			<header>
+				<h2>SHOP CART</h2>
+			</header>
+
+				<!-- cart content -->
+				<div id="cartContent">
+					<!-- cart header -->
+					<div class="item head">
+						<span class="cart_img"></span>
+						<span class="product_name">PRODUCT NAME</span>
+						<span class="remove_item"></span>
+						<span class="total_price">TOTAL</span>
+						<span class="qty">QUANTITY</span>
+						<div class="clearfix"></div>
+					</div>
+					<!-- /cart header -->
+
+					<!-- cart item -->
+					<div id="4GH7SS" class="item">
+						<div class="cart_img"><img src="assets/images/preview/content/shop/6.jpg" alt="" width="80" /></div>
+						<div class="product_name">Samsung i9105 Galaxy S II Plus, 8GB, Blue Gray</div>
+						<a href="#" class="remove_item" data-itemcode="4GH7SS">X</a>
+						<div class="total_price">$<span>32.00</span></div>
+						<div class="qty"><input type="text" value="1" name="qty" maxlength="3" data-itemcode="4GH7SS" data-unitprice="32.00" /> x $32.00</div>
+						<div class="clearfix"></div>
+					</div>
+					<!-- /cart item -->
+
+					<!-- cart item -->
+					<div id="4GH7SZ" class="item">
+						<div class="cart_img"><img src="assets/images/preview/content/shop/4.jpg" alt="" width="80" /></div>
+						<div class="product_name">Samsung i9105 Galaxy S II Plus, 8GB, Blue Gray</div>
+						<a href="#" class="remove_item" data-itemcode="4GH7SZ">X</a>
+						<div class="total_price">$<span>32.00</span></div>
+						<div class="qty"><input type="text" value="1" name="qty" maxlength="3" data-itemcode="4GH7SZ" data-unitprice="32.00" /> x $32.00</div>
+						<div class="clearfix"></div>
+					</div>
+					<!-- /cart item -->
+
+					<!-- cart total -->
+					<div class="total">
+						<small>
+							Shipping: $<span id="shipping">0</span>
+						</small>
+
+						<span class="totalToPay">
+							TOTAL: $<span id="total_payment">0</span>
+						</span>
+					</div><div class="clearfix"></div>
+					<!-- /cart total -->
+
+				</div><div class="clearfix"></div>
+				<!-- /cart content -->
+
+				<form id="form_checkout" method="post" action="#">
+
+					<!-- SHIPPING INFO -->
+					<div id="shippingInfo">
+						<h4>SHIPPING INFO</h4>
+
+						<div class="row">
+							<!-- email - warning - also used by paypal -->
+							<div class="col-xs-12">
+								<label class="control-label">Email</label>
+								<input required type="text" class="form-control" name="email"  />
+							</div>
+							<!-- first name -->
+							<div class="col-xs-6">
+								<label class="control-label">First Name</label>
+								<input required type="text" class="form-control" name="first_name" />
+							</div>
+							<!-- last name -->
+							<div class="col-xs-6">
+								<label class="control-label">Last Name</label>
+								<input required type="text" class="form-control" name="last_name" />
+							</div><div class="clearfix"></div>
+
+							<!-- address #1 -->
+							<div class="col-xs-12">
+								<label class="control-label">Address 1</label>
+								<input required type="text" class="form-control" name="address_1" />
+							</div>
+							<!-- address #2 -->
+							<div class="col-xs-12">
+								<label class="control-label">Address 2</label>
+								<input type="text" class="form-control" name="address_2" />
+							</div><div class="clearfix"></div>
+
+							<!-- state -->
+							<div class="col-xs-6">
+								<label class="control-label">State</label>
+								<input type="text" class="form-control" name="state" />
+							</div>
+							<!-- city -->
+							<div class="col-xs-6">
+								<label class="control-label">City</label>
+								<input required type="text" class="form-control" name="city" />
+							</div><div class="clearfix"></div>
+
+							<!-- country -->
+							<div class="col-xs-6">
+								<label class="control-label">Country</label>
+								<input required type="text" class="form-control" name="country" />
+							</div>
+							<!-- zip / postal code -->
+							<div class="col-xs-6">
+								<label class="control-label">Zip/Postal Code</label>
+								<input required type="text" class="form-control" name="zipcode" />
+							</div><div class="clearfix"></div>
+
+							<!-- phone -->
+							<div class="col-xs-6">
+								<label class="control-label">Phone</label>
+								<input required type="text" class="form-control" name="phone" />
+							</div>
+							<!-- fax -->
+							<div class="col-xs-6">
+								<label class="control-label">Fax</label>
+								<input type="text" class="form-control" name="fax" />
+							</div><div class="clearfix"></div>
+						</div>
+
+					</div>
+					<!-- /SHIPPING INFO -->
+
+					<!-- PAYMENT METHOD -->
+					<div id="paymentMethod">
+						<h4>PAYMENT METHOD</h4>
+
+						<!-- selected payment method on hidden input added by javascript. Default: credit-card-->
+						<input type="hidden" id="payment_method" name="payment_method" value="credit_card" />
+
+						<!-- Payment Methos Switcher -->
+						<ul>
+							<li><a class="on" href="#credit_card">CREDIT CARD</a></li>
+							<li><a href="#paypal">PAYPAL</a></li>
+						</ul><div class="clearfix"></div>
+						<!-- /Payment Methos Switcher -->
+
+						<!-- CREDIT CARD -->
+						<div class="row tab" id="credit_card">
+
+							<!-- name -->
+							<div class="col-xs-12">
+								<label class="control-label">Name (as it appears on yout credit card)</label>
+								<input required type="text" class="form-control" name="card_name" />
+							</div><div class="clearfix"></div>
+
+							<!-- Card Type -->
+							<div class="col-xs-12">
+								<label class="control-label">Card Type</label>
+								<select name="card_type" class="form-control">
+									<option value="visa">Visa</option>
+									<option value="mastercard">Mastercard</option>
+									<option value="maestro">Maestro</option>
+								</select>
+							</div>
+
+							<!-- Card Number -->
+							<div class="block col-xs-9"> <!-- class "block" needed on mobile version -->
+								<label class="control-label">Card number (no dashes or spaces)</label>
+								<input required type="text" class="form-control" name="card_number" />
+							</div>
+							<!-- Card CVV/CVV2 -->
+							<div class="block col-xs-3"> <!-- class "block" needed on mobile version -->
+								<label class="control-label">Security Code</label>
+								<input required type="text" class="form-control" name="card_code" />
+							</div><div class="clearfix"></div>
+
+							<!-- Card Expiration Month -->
+							<div class="block col-xs-9"> <!-- class "block" needed on mobile version -->
+								<label class="control-label">Exp. Month</label>
+								<select name="expiration_month" class="form-control">
+									<option value="01">January</option>
+									<option value="02">Febryary</option>
+									<option value="03">March</option>
+									<option value="04">Apryl</option>
+									<option value="05">May</option>
+									<option value="06">June</option>
+									<option value="07">July</option>
+									<option value="08">August</option>
+									<option value="09">September</option>
+									<option value="10">October</option>
+									<option value="11">Ovember</option>
+									<option value="12">December</option>
+								</select>
+							</div>
+							<!-- Card Expiration Year -->
+							<div class="block col-xs-3"> <!-- class "block" needed on mobile version -->
+								<label class="control-label">Exp. Year</label>
+								<select name="expiration_year" class="form-control">
+									<option value="2013">2013</option>
+									<option value="2014">2014</option>
+									<option value="2015">2015</option>
+									<option value="2016">2016</option>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+								</select>
+							</div><div class="clearfix"></div>
+						</div>
+						<!-- /CREDIT CARD -->
+
+						<!-- PAYPAL -->
+						<div class="tab hide" id="paypal">
+							<!-- 
+								https://www.paypal.com/cgi-bin/webscr
+								PAYPAL HIDDEN FIELDS 
+							-->
+							<input type="hidden" name="charset" value="utf-8" />
+							<input type="hidden" name="cmd" value="_xclick" />  
+							<input type="hidden" name="notify_url" value="http://www.yourdomain.com/php/shop/ipn.php" />			<!-- IPN - ORDER SUCCESS or FAIL -->
+							<input type="hidden" name="return" value="http://www.yourdomain.com/#thankyou" />  						<!-- thank you screen -->
+							<input type="hidden" name="cancel_return" value="http://www.yourdomain.com/#canceled" />  				<!-- back here -->
+							<input type="hidden" name="currency_code" value="USD" />
+							<input type="hidden" name="business" value="paypalEmail@yourdomain.com" />
+							<input type="hidden" name="item_name" value="Shop Order" />  				<!-- product name -->
+							<input type="hidden" name="landingpage" value="billing" />  				<!-- client email -->
+
+							<input name="amount" id="amount" type="hidden" value="1" />
+
+							<p>
+								Click CHECKOUT to continue.
+							</p>
+						</div>
+						<!-- /PAYPAL -->
+
+						<!-- CHECKOUT BUTTON -->
+						<div class="checkout">
+							<button class="btn btn-custom btn-lg btn-block">CHECKOUT <i class="fa fa-chevron-right"></i></button>
+						</div>
+
+						<!-- credit cards -->
+						<div class="credit_cards">
+							<img src="assets/images/ico-american-express.jpg" width="41" height="25" alt="" />
+							<img src="assets/images/ico-discover.jpg" width="41" height="25" alt="" />
+							<img src="assets/images/ico-mastercard.jpg" width="41" height="25" alt="" />
+							<img src="assets/images/ico-visa.jpg" width="41" height="25" alt="" />
+							<img src="assets/images/ico-paypal.jpg" width="41" height="25" alt="" />
+						</div>
+
+					</div>
+					<!-- /PAYMENT METHOD -->
+
+					<div class="clearfix"></div>
+				</form>
+
+			</div>
+		</section>
+		<!-- /SHOP CART -->
+
+
+
+
+
+		<!-- FOOTER -->
+		<footer id="footer">
+
+			<!-- google map -->
+			<div id="gmap"></div><a href="#" class="gmapClose"></a>
+
+			<!-- footer buttons -->
+			<div id="footerContent">
+				<div class="container">
+
+					<h2 data-animation="bounceIn">KEEP IN TOUCH</h2>
+					<h3>FOLLOW US</h3>
+
+					<!-- 
+						paragraph - short description 
+						OR
+						<div class="spacer"></div>
+					-->
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+					<div class="social">
+						<!-- facebook -->
+						<a target="_blank" href="#" class="socialbtn facebook"><i class="fa fa-facebook"></i>Facebook</a>
+						<!-- twitter -->
+						<a target="_blank" href="#" class="socialbtn twitter"><i class="fa fa-twitter"></i>Twitter</a>
+						<!-- google plus -->
+						<a target="_blank" href="#" class="socialbtn google"><i class="fa fa-google-plus"></i>Google Plus</a>
+						<!-- twitter -->
+						<a target="_blank" href="#" class="socialbtn twitter"><i class="fa fa-linkedin"></i>LinkedIn</a>
+						<!-- skype -->
+						<a target="_blank" href="skype:username?chat" class="socialbtn skype"><i class="fa fa-skype"></i>Skype</a>
+						<!-- google map -->
+						<a href="#" class="gmapShow socialbtn gmap"><i class="fa fa-map-marker"></i>Map</a>
+					</div>
+
+				</div>
+			</div>
+			<!-- /footer buttons -->
+
+		</footer>
+		<!-- /FOOTER -->
+
+
+		<!-- CORE JS FRAMEWORK--> 
+		<script type="text/javascript" src="assets/plugins/pace/pace.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/masonry.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/smoothscroll.js"></script>
+		<script async type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
+		<!-- /CORE JS FRAMEWORK--> 
+
+		<!-- PLUGINS -->
+		<script type="text/javascript" src="assets/plugins/jquery-fitvids/jquery.fitvids.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-countTo/jquery.countTo.js"></script>
+		<script type="text/javascript" src="assets/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-scrollto/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-onepage-nav/jquery.nav.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-easy-pie-chart/jquery.easypiechart.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/prettyPhoto/js/jquery.prettyPhoto.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-stellar/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-bxslider/jquery.bxslider.pack.js"></script>
+		<script type="text/javascript" src="assets/plugins/iscroll/iscroll.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-zoom/jquery.zoom.min.js"></script>
+		<!-- /PLUGINS -->
+
+		<script type="text/javascript" src="assets/js/demo.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		<script async type="text/javascript" src="assets/js/contact.js"></script>
+		<script async type="text/javascript" src="assets/js/shop.js"></script>
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+	</body>
+</html>

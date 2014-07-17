@@ -1,0 +1,535 @@
+<!doctype html>
+<html class="nicescroll" lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>DEUSONE - Multipurpose OnePage Template</title>
+		<meta name="Author" content="Dorin Grigoras [https://wrapbootstrap.com/user/stepofweb]" />
+		
+
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/html5.js"></script>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/respond.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+		<![endif]--> 
+
+		<!-- GOOGLE FONTS -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS FRAMEWORK -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+
+		<!-- PLUGINS -->
+		<link href="assets/plugins/jquery-owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/jquery-owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/prettyPhoto/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/jquery-bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+
+		<!-- CSS TEMPLATE -->
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/shop.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color/orange.css" rel="stylesheet" type="text/css" /><!-- demo default style -->
+
+
+		<!-- colors : demo only -->
+		<link href="assets/css/color/blue.css" rel="alternate stylesheet" type="text/css" title="blue" />
+		<link href="assets/css/color/orange.css" rel="alternate stylesheet" type="text/css" title="orange" />
+		<link href="assets/css/color/green.css" rel="alternate stylesheet" type="text/css" title="green" />
+		<link href="assets/css/color/red.css" rel="alternate stylesheet" type="text/css" title="red" />
+		<link href="assets/css/color/yellow.css" rel="alternate stylesheet" type="text/css" title="yellow" />
+		<link href="assets/css/color/gray.css" rel="alternate stylesheet" type="text/css" title="gray" />
+		<link href="assets/css/color/pink.css" rel="alternate stylesheet" type="text/css" title="pink" />
+		<link href="assets/css/color/mauve.css" rel="alternate stylesheet" type="text/css" title="mauve" />
+
+		<!-- ICONS -->
+		<link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+		<!-- STYLESWITCHER -->
+		<link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css"/>
+
+	</head>
+	<body>
+<div id="overlay"></div>
+
+
+		<!-- STYLESWITCHER -->
+		<div id="switcher">
+			<div class="content-switcher" >        
+				<h4>STYLE OPTIONS</h4>
+
+				<p>Color Skin:</p>
+				<ul style="width:150px;">            
+					<li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" class="color" style="background-color:#F07057"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" class="color" style="background-color:#50657B"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('green'); return false;" class="color" style="background-color:#6aa018"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('red'); return false;" class="color" style="background-color:#e93735"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('pink'); return false;" class="color" style="background-color:#f73f69"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('mauve'); return false;" class="color" style="background-color:#c91ac9"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" class="color" style="background-color:#f1c40f"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('gray'); return false;" class="color" style="background-color:#333333"></a></li>
+				</ul>        
+
+				<p>Home Page Template:</p>
+				<div class="styled-select">
+					<select onchange="window.document.location.href=this.options[this.selectedIndex].value;">  
+						
+						<optgroup label="Standard">
+							<option selected="selected">01. Fullscreen Slider</option>
+							<option value="index-2.html">02. Image Only</option>
+						</optgroup>
+
+						<optgroup label="Video Frame &amp; Parallax">
+							<option value="index-3.html">03. Parallax &amp; Video - full</option>
+							<option value="index-4.html">04. Parallax &amp; Video - Normal</option>
+						</optgroup>
+
+						<optgroup label="Text &amp; Parallax">
+							<option value="index-5.html">05. Text with Parallax Bg</option>
+							<option value="index-6.html">06. Text Only - Normal</option>
+							<option value="index-7.html">07. Text Only - Full</option>
+						</optgroup>
+
+						<optgroup label="Video Background">
+							<option value="index-8.html">08. Video Background - Full</option>
+							<option value="index-9.html">09. Video Background - Normal</option>
+						</optgroup>
+
+					</select>
+				</div>
+
+				<div id="hideSwitcher">&times;</div>
+			</div>
+		</div>
+		<div id="showSwitcher"><i class="fa fa-tint"></i></div>
+		<!-- /STYLESWITCHER -->
+
+
+
+
+		<!-- SHOP NAME -->
+		<section class="page-name parallax" data-stellar-background-ratio="0.5" style="background-image:url(assets/images/preview/slider/parallax_bg.jpg)">
+			<span class="overlay"></span>
+			<span class="name">
+				Hey look<b>,</b> a Parallax section<b>!</b>
+				<i class="fa fa-compress"></i>
+			</span>
+		</section>
+
+
+
+
+		<!-- HEADER -->
+		<header id="header">
+			<div class="container">
+
+				<!-- LOGO -->
+				<a href="index-1.html" class="pull-left"><img src="assets/images/logo.png" height="60" alt="welcome" /></a>
+
+				<!-- MOBILE MENU -->
+				<button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
+
+				<!-- NAV MENU -->
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav navbar-right"><!-- id="onepageNav" for homepage only -->
+						<li><a href="#home">HOME</a></li>
+						<li><a href="index-1.html#services">SERVICES</a></li>
+						<li><a href="index-1.html#skills">SKILLS</a></li>
+						<li><a href="index-1.html#portfolio">PORTFOLIO</a></li>
+						<li><a href="index-1.html#team">TEAM</a></li>
+						<li><a href="index-1.html#pricing">PRICING</a></li>
+						<li><a href="index-1.html#contact">CONTACT</a></li>
+						<li class="dropdown">
+							<a class="external dropdown-toggle" href="blog-with-sidebar.html" data-toggle="dropdown">BLOG <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="blog-with-sidebar.html">With Sidebar</a></li>
+								<li><a class="external" href="blog-with-sidebar-post.html">Post With Sidebar</a></li>
+								<li><a class="external" href="blog-without-sidebar.html">Without Sidebar</a></li>
+								<li><a class="external" href="blog-without-sidebar-post.html">Post Without Sidebar</a></li>
+							</ul>
+						</li>
+						<li class="dropdown active">
+							<a class="external dropdown-toggle" href="shop-without-drag.html" data-toggle="dropdown">SHOP <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li class="active"><a class="external" href="shop-without-drag.html">Shop Without Drag</a></li>
+								<li><a class="external" href="shop-cart.html">Shop Cart</a></li>
+								<li><a class="external" href="shop-product.html">Shop Product</a></li>
+								<li><a class="external" href="shop-with-cart.html">Draggable With Cart</a></li>
+								<li><a class="external" href="shop-without-cart.html">Draggable Without Cart</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="external dropdown-toggle" href="#" data-toggle="dropdown">FEATURES <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="typography.html">Typography</a></li>
+								<li><a class="external" href="elements.html">Elements</a></li>
+								<li><a class="external" href="slider.html">Sliders</a></li>
+								<li><a class="external" href="icons.html">Icons</a></li>
+								<li><a class="external" href="404.html">Not Found 404</a></li>
+								<li><a class="external" href="presentation-page.html">Presentation Page</a></li>
+								<li><a class="external" href="presentation-page-with-slider.html">Presentation Page Slider</a></li>
+								<li><a class="external" href="coming_soon.html">Coming Soon Page</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<!-- /NAV MENU -->
+
+			</div>
+		</header>
+		<!-- /HEADER -->
+
+
+
+		<!-- PRODUCT LIST -->
+		<section id="shop">
+
+			<div class="container">
+
+					<!-- FULL WIDTH SEARCH -->
+					<form action="#" method="get" class="col-lg-12 fullsearch">
+						<div class="input-group input-group-lg">
+							<input type="text" class="form-control" name="s" id="s" placeholder="search..." />
+							<span class="input-group-btn">
+								<button class="btn btn-custom"><i class="fa fa-search"></i></button>
+							</span>
+						</div>
+					</form>
+
+					<!-- menu -->
+					<nav>
+						<ul>
+							<li><a href="#" class="current"><i class="fa fa-th-large"></i> WOMEN</a></li>
+							<li><a href="#"><i class="fa fa-th-large"></i> MEN</a></li>
+							<li><a href="#"><i class="fa fa-th-large"></i> KIDS</a></li>
+							<li><a href="#"><i class="fa fa-th-large"></i> BABY</a></li>
+						</ul>
+					</nav>
+					<!-- /menu -->
+
+					<div id="scroller" class="nodrag">
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/1.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/2.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/3.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/4.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/5.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/6.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/7.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/8.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/9.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/1.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/2.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/3.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/4.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/5.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/6.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- product item -->
+						<div class="item">
+							<a class="itemHref" href="shop-product.html">
+								<img src="assets/images/preview/content/shop/7.jpg" alt="" height="200" /> <!-- product thumbnail image (200px height) -->
+								<h3>Product Name</h3>
+								<h4>
+									$32.00				<!-- new price -->
+									<span>$36.00</span> <!-- old price (line through) -->
+								</h4><!-- /price -->
+							</a>
+						</div>
+
+						<!-- load more items via ajax -->
+						<div id="loadmore"><!-- ajax : shop-without-drag-loadmore-ajax.html --></div>
+
+					</div>
+
+
+					<!-- load more -->
+					<div class="clearfix"></div>
+					<a href="shop-without-drag-loadmore-ajax.html?page=2&amp;offset=16" class="btn btn-default btn-lg btn-block loadmore">
+						<i class="fa fa-angle-down"></i> load more <i class="fa fa-angle-down"></i>
+					</a>
+
+					<div class="spacer"><!-- 60px spacer --></div>
+
+			</div>
+			
+		</section>
+		<!-- /PRODUCT LIST -->
+
+
+		<!-- BRANDS -->
+		<section id="brands">
+			<div class="container">
+
+				<!-- BRANDS CAROUSEL -->
+				<div class="owl-carousel" data-navigation="false" data-singleitem="false" data-autoplay="true" data-animation="bounceIn">
+					<div class="item dragCursor"><img src="assets/images/preview/brands/8.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/1.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/2.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/3.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/4.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/5.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/6.png" height="60" alt="..." /></div>
+					<div class="item dragCursor"><img src="assets/images/preview/brands/7.png" height="60" alt="..." /></div>
+				</div>
+
+			</div>
+		</section>
+		<!-- BRANDS -->
+		
+		
+		
+		
+
+
+
+		<!-- FOOTER -->
+		<footer id="footer">
+
+			<!-- google map -->
+			<div id="gmap"></div><a href="#" class="gmapClose"></a>
+
+			<!-- footer buttons -->
+			<div id="footerContent">
+				<div class="container">
+
+					<h2 data-animation="bounceIn">KEEP IN TOUCH</h2>
+					<h3>FOLLOW US</h3>
+
+					<!-- 
+						paragraph - short description 
+						OR
+						<div class="spacer"></div>
+					-->
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+					<div class="social">
+						<!-- facebook -->
+						<a target="_blank" href="#" class="socialbtn facebook"><i class="fa fa-facebook"></i>Facebook</a>
+						<!-- twitter -->
+						<a target="_blank" href="#" class="socialbtn twitter"><i class="fa fa-twitter"></i>Twitter</a>
+						<!-- google plus -->
+						<a target="_blank" href="#" class="socialbtn google"><i class="fa fa-google-plus"></i>Google Plus</a>
+						<!-- twitter -->
+						<a target="_blank" href="#" class="socialbtn twitter"><i class="fa fa-linkedin"></i>LinkedIn</a>
+						<!-- skype -->
+						<a target="_blank" href="skype:username?chat" class="socialbtn skype"><i class="fa fa-skype"></i>Skype</a>
+						<!-- google map -->
+						<a href="#" class="gmapShow socialbtn gmap"><i class="fa fa-map-marker"></i>Map</a>
+					</div>
+
+				</div>
+			</div>
+			<!-- /footer buttons -->
+
+		</footer>
+		<!-- /FOOTER -->
+
+
+		<!-- CORE JS FRAMEWORK--> 
+		<script type="text/javascript" src="assets/plugins/pace/pace.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/masonry.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/smoothscroll.js"></script>
+		<script async type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
+		<!-- /CORE JS FRAMEWORK--> 
+
+		<!-- PLUGINS -->
+		<script type="text/javascript" src="assets/plugins/jquery-fitvids/jquery.fitvids.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-countTo/jquery.countTo.js"></script>
+		<script type="text/javascript" src="assets/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-scrollto/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-onepage-nav/jquery.nav.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-easy-pie-chart/jquery.easypiechart.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/prettyPhoto/js/jquery.prettyPhoto.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-stellar/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-bxslider/jquery.bxslider.pack.js"></script>
+		<script type="text/javascript" src="assets/plugins/iscroll/iscroll.js"></script>
+		<!-- /PLUGINS -->
+
+		<script type="text/javascript" src="assets/js/demo.js"></script>
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		<script async type="text/javascript" src="assets/js/contact.js"></script>
+		<script async type="text/javascript" src="assets/js/shop.js"></script>
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+	</body>
+</html>

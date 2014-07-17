@@ -1,0 +1,257 @@
+/**
+	@Author				Dorin Grigoras [stepofweb]
+	@URL				https://wrapbootstrap.com/user/stepofweb
+	@Last Update		12:27 AM Monday, December 09, 2013
+
+	------------------------------
+	REWRITE `layout.css`
+	------------------------------
+**/
+
+
+
+/** 01. Resets
+ **************************************************************** **/
+::selection {
+	background:#6aa018;
+}
+::-moz-selection {
+	background:#6aa018;
+}
+
+
+
+/** 02. Typography
+ **************************************************************** **/
+.btn-custom, .btn-custom.active {
+	background:#6aa018;
+	background-image: -webkit-gradient(linear,left 0,left 100%,from(#7cb91c),to(#6aa018));
+	background-image: -webkit-linear-gradient(top,#7cb91c 0,#6aa018 100%);
+	background-image: -moz-linear-gradient(top,#7cb91c 0,#6aa018 100%);
+	background-image: linear-gradient(to bottom,#7cb91c 0,#6aa018 100%);
+	background-image: -moz-linear-gradient(top,#7cb91c 0,#6aa018 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7cb91c',endColorstr='#ff6aa018',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	border-color: #496f11;
+	color:#fff;
+	text-shadow:#496f11 1px 1px 1px;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active {
+	background:#496f11;
+	background-color:#6aa018;
+	background-position:0 -30px;
+	border-color: #496f11;
+	color:#fff;
+}
+
+a, a:hover {
+	color:#6aa018;
+}
+
+.rounded-icon {
+	color:#6aa018;
+}
+
+section.color, div.color { 
+	color:#fff !important;
+	background-color:#6aa018 !important;
+	border:0 !important;
+}
+
+/* section center menu - ex.: portfolio filter */
+section nav ul li a:hover,
+section nav ul li a.current,
+section nav ul li a.active {
+	background:#6aa018;
+	color:#fff;
+}
+
+/* Accordion */
+h4.panel-title a {
+	color:#6aa018;
+}
+
+
+
+/** 03. Header
+ **************************************************************** **/
+#header ul.nav li a:hover,
+#header ul.nav li.active a,
+#header ul.nav ul  li.active a,
+#header ul.nav ul  li.active a:hover {
+	color:#6aa018;
+}
+
+
+
+/** 04. Home
+ **************************************************************** **/
+.image-caption h1 em,
+.image-caption h2 em,
+.image-caption p em {
+	color:#6aa018;
+}
+#home.homeTop .video {
+	border:#6aa018 1px solid;
+	box-shadow:#6aa018 0 0 30px;
+}
+
+
+/** 05. Services
+ **************************************************************** **/
+.serviceBox i {
+	color:#6aa018; 
+}
+
+
+
+/** 06. Portfolio
+ **************************************************************** **/
+.portfolio .item  { 
+	
+}
+.portfolio .item  a {
+	background:#fff;
+	color:#000;
+}
+.portfolio .item .current,
+.portfolio .item  a:hover {
+	background:#6aa018;
+	color:#fff;
+}
+a.portfolioClose:hover{
+	background-color:#6aa018;
+}
+
+
+
+/** 07. Team
+ **************************************************************** **/
+.owl-carousel.column .item .social {
+	color:#6aa018;
+}
+
+
+
+/** 08. Pricing
+ **************************************************************** **/
+.pricing h3 span {
+	color:#6aa018;
+}
+
+
+
+/** 11. Footer
+ **************************************************************** **/
+#footer,
+#footer a.gmapClose {
+	background-color:#6aa018;
+}
+
+
+
+
+/** 12. 404 NOT FOUND
+ **************************************************************** **/
+#err404 h1,
+#err404 h2 {
+	color:#6aa018;
+}
+
+
+
+
+/** 13. Milestone
+ **************************************************************** **/
+.milestone {
+	color:#6aa018;
+}
+
+
+
+/** 14. Pagination
+ **************************************************************** **/
+.pagination a {
+	background:#6aa018 !important;
+	border:0 !important;
+	border-left:#496f11 1px solid !important;
+}
+.pagination .disabled:hover a,
+.pagination .disabled a {
+	color:#ccc !important;
+	background:#6aa018 !important;
+}
+.pagination .active a,
+.pagination a:hover {
+	background:#496f11 !important;
+	color:#fff !important;
+}
+
+
+
+
+/** 15. Plugins
+ **************************************************************** **/
+	/* 
+		@PACE LOADER
+		http://github.hubspot.com/pace/docs/welcome/
+	*/
+	.pace .pace-progress {
+		 background: #6aa018;
+	}
+
+	/*
+		Easy pie chart
+	*/
+	.easyPieChartItem {
+		color:#6aa018;
+	}
+
+
+
+/** Blog
+ **************************************************************** **/
+.blog-name {
+	color:#fff;
+	background:#6aa018;
+	text-shadow:#fff 0 0 3px;
+}
+
+#blog span.user-avatar {
+	background:#6aa018;
+}
+
+#blog .widget a.thumb:hover {
+	border:#6aa018 2px solid;
+}
+
+
+/** Misc
+ **************************************************************** **/
+.styleColor {
+	color:#6aa018;
+}
+.styleBackground {
+	background-color:#6aa018;
+}
+i.ico-stack {
+	background-color:#6aa018;
+	color:#fff;
+}
+a.thumbnail:hover {
+	border:#6aa018 1px solid;
+}
+.page-name {
+	background:#6aa018;
+}
+.page-name .name b,
+.page-name .name i {
+	color:#6aa018;
+}
+#scroller .item:hover {
+	background:#6aa018;
+}
+#scroller .item h4 {
+	color:#6aa018;
+}

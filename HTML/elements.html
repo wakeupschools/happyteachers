@@ -1,0 +1,958 @@
+<!doctype html>
+<html class="nicescroll" lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>DEUSONE - Multipurpose OnePage Template</title>
+		<meta name="Author" content="Dorin Grigoras [https://wrapbootstrap.com/user/stepofweb]" />
+		
+
+		<!--[if lt IE 9]>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/html5.js"></script>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/respond.min.js"></script>
+			<script type="text/javascript" src="assets/plugins/lt-ie9/excanvas.compiled.js"></script>
+		<![endif]--> 
+
+		<!-- GOOGLE FONTS -->
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS FRAMEWORK -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+
+		<!-- PLUGINS -->
+		<link href="assets/plugins/jquery-owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/jquery-owl-carousel/owl.theme.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/prettyPhoto/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/jquery-bxslider/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+
+		<!-- CSS TEMPLATE -->
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color/orange.css" rel="stylesheet" type="text/css" /><!-- demo default style -->
+
+		<!-- colors : demo only -->
+		<link href="assets/css/color/blue.css" rel="alternate stylesheet" type="text/css" title="blue" />
+		<link href="assets/css/color/orange.css" rel="alternate stylesheet" type="text/css" title="orange" />
+		<link href="assets/css/color/green.css" rel="alternate stylesheet" type="text/css" title="green" />
+		<link href="assets/css/color/red.css" rel="alternate stylesheet" type="text/css" title="red" />
+		<link href="assets/css/color/yellow.css" rel="alternate stylesheet" type="text/css" title="yellow" />
+		<link href="assets/css/color/gray.css" rel="alternate stylesheet" type="text/css" title="gray" />
+		<link href="assets/css/color/pink.css" rel="alternate stylesheet" type="text/css" title="pink" />
+		<link href="assets/css/color/mauve.css" rel="alternate stylesheet" type="text/css" title="mauve" />
+
+		<!-- ICONS -->
+		<link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
+		<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+		<!-- STYLESWITCHER -->
+		<link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css"/>
+
+	</head>
+	<body>
+
+		<!-- STYLESWITCHER -->
+		<div id="switcher">
+			<div class="content-switcher" >        
+				<h4>STYLE OPTIONS</h4>
+
+				<p>Color Skin:</p>
+				<ul style="width:150px;">            
+					<li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" class="color" style="background-color:#F07057"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" class="color" style="background-color:#50657B"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('green'); return false;" class="color" style="background-color:#6aa018"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('red'); return false;" class="color" style="background-color:#e93735"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('pink'); return false;" class="color" style="background-color:#f73f69"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('mauve'); return false;" class="color" style="background-color:#c91ac9"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" class="color" style="background-color:#f1c40f"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('gray'); return false;" class="color" style="background-color:#333333"></a></li>
+				</ul>        
+
+				<p>Home Page Template:</p>
+				<div class="styled-select">
+					<select onchange="window.document.location.href=this.options[this.selectedIndex].value;">  
+						
+						<optgroup label="Standard">
+							<option selected="selected">01. Fullscreen Slider</option>
+							<option value="index-2.html">02. Image Only</option>
+						</optgroup>
+
+						<optgroup label="Video Frame &amp; Parallax">
+							<option value="index-3.html">03. Parallax &amp; Video - full</option>
+							<option value="index-4.html">04. Parallax &amp; Video - Normal</option>
+						</optgroup>
+
+						<optgroup label="Text &amp; Parallax">
+							<option value="index-5.html">05. Text with Parallax Bg</option>
+							<option value="index-6.html">06. Text Only - Normal</option>
+							<option value="index-7.html">07. Text Only - Full</option>
+						</optgroup>
+
+						<optgroup label="Video Background">
+							<option value="index-8.html">08. Video Background - Full</option>
+							<option value="index-9.html">09. Video Background - Normal</option>
+						</optgroup>
+
+					</select>
+				</div>
+
+				<div id="hideSwitcher">&times;</div>
+			</div>
+		</div>
+		<div id="showSwitcher"><i class="fa fa-tint"></i></div>
+		<!-- /STYLESWITCHER -->
+
+
+		<!-- TOP PARALLAX -->
+		<section class="page-name parallax" data-stellar-background-ratio="0.5" style="background-image:url(assets/images/preview/slider/parallax_bg.jpg)">
+			<span class="overlay"></span>
+			<span class="name">
+				<b>Deus	</b> Elements
+				<i class="fa fa-smile-o"></i>
+			</span>
+		</section>
+		<!-- TOP PARALLAX -->
+
+
+		<!-- HEADER -->
+		<header id="header">
+			<div class="container">
+
+				<!-- LOGO -->
+				<a href="index-1.html" class="pull-left"><img src="assets/images/logo.png" height="60" alt="welcome" /></a>
+
+				<!-- MOBILE MENU -->
+				<button id="mobileMenu" class="fa fa-bars" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"></button>
+
+				<!-- NAV MENU -->
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+					<ul class="nav navbar-nav navbar-right"><!-- id="onepageNav" for homepage only -->
+						<li><a href="#home">HOME</a></li>
+						<li><a href="index-1.html#services">SERVICES</a></li>
+						<li><a href="index-1.html#skills">SKILLS</a></li>
+						<li><a href="index-1.html#portfolio">PORTFOLIO</a></li>
+						<li><a href="index-1.html#team">TEAM</a></li>
+						<li><a href="index-1.html#pricing">PRICING</a></li>
+						<li><a href="index-1.html#contact">CONTACT</a></li>
+						<li class="dropdown">
+							<a class="external dropdown-toggle" href="blog-with-sidebar.html" data-toggle="dropdown">BLOG <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="blog-with-sidebar.html">With Sidebar</a></li>
+								<li><a class="external" href="blog-with-sidebar-post.html">Post With Sidebar</a></li>
+								<li><a class="external" href="blog-without-sidebar.html">Without Sidebar</a></li>
+								<li><a class="external" href="blog-without-sidebar-post.html">Post Without Sidebar</a></li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a class="external dropdown-toggle" href="shop-without-drag.html" data-toggle="dropdown">SHOP <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="shop-without-drag.html">Shop Without Drag</a></li>
+								<li><a class="external" href="shop-cart.html">Shop Cart</a></li>
+								<li><a class="external" href="shop-product.html">Shop Product</a></li>
+								<li><a class="external" href="shop-with-cart.html">Draggable With Cart</a></li>
+								<li><a class="external" href="shop-without-cart.html">Draggable Without Cart</a></li>
+							</ul>
+						</li>
+						<li class="dropdown active">
+							<a class="external dropdown-toggle" href="#" data-toggle="dropdown">FEATURES <i class="fa fa-angle-down"></i></a>
+							<ul class="dropdown-menu"><!-- dropdown menu -->
+								<li><a class="external" href="typography.html">Typography</a></li>
+								<li class="active"><a class="external" href="elements.html">Elements</a></li>
+								<li><a class="external" href="slider.html">Sliders</a></li>
+								<li><a class="external" href="icons.html">Icons</a></li>
+								<li><a class="external" href="404.html">Not Found 404</a></li>
+								<li><a class="external" href="presentation-page.html">Presentation Page</a></li>
+								<li><a class="external" href="presentation-page-with-slider.html">Presentation Page Slider</a></li>
+								<li><a class="external" href="coming_soon.html">Coming Soon Page</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<!-- /NAV MENU -->
+
+			</div>
+		</header>
+		<!-- /HEADER -->
+
+		
+		
+		
+		
+
+		<!-- ELEMENTS -->
+		<section id="elements">
+			<article class="container">
+
+				<div class="row text-left">
+					<div class="col-md-6">
+						<h3>BUTTONS</h3>
+
+						<p>
+							<!-- button primary -->
+							<button class="btn btn-custom" type="button">Custom</button>
+							<!-- button default -->
+							<button class="btn btn-default" type="button">Default</button>
+							<!-- button success -->
+							<button class="btn btn-success" type="button">Success</button>
+							<!-- button info -->
+							<button class="btn btn-info" type="button">Info</button>
+							<!-- button warning -->
+							<button class="btn btn-warning" type="button">Warning</button>
+							<!-- button danger -->
+							<button class="btn btn-danger" type="button">Danger</button>
+							<!-- button primary -->
+							<button class="btn btn-primary" type="button">Primary</button>
+						</p>
+
+						<!-- BUTTON SIZE: LARGE -->
+						<p>
+							<button type="button" class="btn btn-custom btn-lg">Large button</button>
+							<button type="button" class="btn btn-default btn-lg">Large button</button>
+						</p>
+						<!-- BUTTON SIZE: SMALL -->
+						<p>
+							<button type="button" class="btn btn-custom btn-sm">Small button</button>
+							<button type="button" class="btn btn-default btn-sm">Small button</button>
+						</p>
+						<!-- BUTTON SIZE: EXTRA SMALL -->
+						<p>
+							<button type="button" class="btn btn-custom btn-xs">Extra small button</button>
+							<button type="button" class="btn btn-default btn-xs">Extra small button</button>
+						</p>
+
+						<!-- BUTTON BLOCK (full width) -->
+						<p>
+							<button type="button" class="btn btn-custom btn-lg btn-block">Block level button</button>
+							<button type="button" class="btn btn-default btn-lg btn-block">Block level button</button>
+						</p>
+					</div>
+					<div class="col-md-6">
+						<h3>ALERTS</h3>
+						<p></p>
+
+						<!-- alert success -->
+						<div class="alert alert-success fade in">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<strong>Well done!</strong> You successfully read this important alert message.
+						</div>
+						<!-- alert info -->
+						<div class="alert alert-info fade in">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+						</div>
+						<!-- alert warning -->
+						<div class="alert alert-warning fade in">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<strong>Warning!</strong> Best check yo self, you're not looking too good.
+						</div>
+						<!-- alert danger -->
+						<div class="alert alert-danger fade in">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							<strong>Oh snap!</strong> Change a few things up and try submitting again.
+						</div>
+
+					</div>
+				</div>
+
+			</article>
+
+
+			<article class="container">
+
+				<div class="row">
+					<div class="col-md-6">
+						<h3>NUMBER ANIMATE</h3>
+
+						<!-- animate example 1 -->
+						<div class="milestone">
+							<i class="fa fa-briefcase"></i> <!-- icon -->
+							<span class="countTo">121</span> <!-- number -->
+							<span class="countToDesc">Our Projects</span> <!-- short text -->
+						</div>
+
+						<!-- animate example 2 -->
+						<div class="milestone">
+							<i class="fa fa-users"></i> <!-- icon -->
+							<span class="countTo">118</span> <!-- number -->
+							<span class="countToDesc">Our Customers</span> <!-- short text -->
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h3>CIRCLE CHART</h3>
+						<!-- circle chart - percent -->
+						<div class="easyPieChartItem" data-animation="fadeInUp">
+							<div class="pieChart" data-bar-color="#F07057" data-bar-width="150" data-percent="88">88%</div>
+							<h4>Percent</h4>
+						</div>
+
+						<!-- circle chart - icon -->
+						<div class="easyPieChartItem" data-animation="fadeInUp">
+							<div class="pieChart" data-bar-color="#F07057" data-bar-width="150" data-percent="88"><i class="fa fa-briefcase"></i></div>
+							<h4>Icon</h4>
+						</div>
+
+					</div>
+				</div>
+
+			</article>
+
+
+			<article class="container">
+
+				<div class="row">
+					<div class="col-md-6">
+						<!-- VIMEO VIDEO -->
+						<h3>VIMEO</h3><br />
+
+						<iframe class="fitvids" src="http://player.vimeo.com/video/23630702" width="800" height="450"></iframe>
+
+					</div>
+					<div class="col-md-6">
+						<!-- YOUTUBE VIDEO -->
+						<h3>YOUTUBE</h3><br />
+
+						<iframe width="560" height="315" src="http://www.youtube.com/embed/-bdKMT1znJ0"></iframe>
+
+					</div>
+				</div>
+
+				<div class="spacer"><!-- 60px spacer --></div>
+
+				<div class="text-left">
+
+					<div class="spacer"><!-- 60px spacer --></div>
+
+					<!-- Horizontal Desscription -->
+					<h3>HORIZONTAL DESCRIPTION</h3>
+					<dl class="dl-horizontal text-left">
+						<dt>Description lists</dt>
+						<dd>A description list is perfect for defining terms.</dd>
+						<dt>Euismod</dt>
+						<dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+						<dd>Donec id elit non mi porta gravida at eget metus.</dd>
+						<dt>Malesuada porta</dt>
+						<dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+						<dt>Felis euismod semper eget lacinia</dt>
+						<dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+					</dl>
+
+					<div class="spacer"><!-- 60px spacer --></div>
+
+					<!-- TABLE -->
+					<h3>TABLE</h3>
+					<table class="table">
+						<!-- table head -->
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Username</th>
+							</tr>
+						</thead>
+						<!-- table body -->
+						<tbody>
+							<!-- row #1 -->
+							<tr>
+								<td>1</td>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<!-- row #2 -->
+							<tr>
+								<td>2</td>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<!-- row #3 -->
+							<tr>
+								<td>3</td>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+
+
+					<div class="spacer"><!-- 60px spacer --></div>
+
+					<!-- CODE -->
+					<h3>PRE <small>(code)</small></h3>
+					<pre>&lt;p&gt;Sample text here...&lt;/p&gt;</pre>
+				</div>
+
+			</article>
+
+
+			<article class="container">
+
+				<div class="row text-left">
+					<div class="col-md-6">
+						<h3>TABS</h3><br />
+
+						<!-- TABS LINKS -->
+						<ul id="myTab" class="nav nav-tabs">
+							<!-- tab link #1 -->
+							<li class="active"><a href="#tabHome" data-toggle="tab">Home</a></li>
+							<!-- tab link #2 -->
+							<li><a href="#tabProfile" data-toggle="tab">Profile</a></li>
+							<!-- tab link #3 -->
+							<li class="dropdown">
+								<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+								<!-- tab dropdown -->
+								<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+									<!-- tab dropdown 1 -->
+									<li><a href="#tabDropdown1" tabindex="-1" data-toggle="tab">@dropdown #1</a></li>
+									<!-- tab dropdown 2 -->
+									<li><a href="#tabdropdown2" tabindex="-1" data-toggle="tab">@dropdown #2</a></li>
+								</ul>
+							</li>
+						</ul>
+						<!-- /TABS LINKS -->
+
+						<!-- TABS CONTENT -->
+						<div id="myTabContent" class="tab-content">
+							<!-- tab content #1 -->
+							<div class="tab-pane fade in active" id="tabHome">
+								<p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+							</div>
+							<!-- tab content #2 -->
+							<div class="tab-pane fade" id="tabProfile">
+								<p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+							</div>
+							<!-- tab dropdown content #1 -->
+							<div class="tab-pane fade" id="tabDropdown1">
+								<p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+							</div>
+							<!-- tab dropdown content #2 -->
+							<div class="tab-pane fade" id="tabdropdown2">
+								<p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan.</p>
+							</div>
+						</div>
+						<!-- /TABS CONTENT -->
+
+					</div>
+					<div class="col-md-6">
+						<h3>ACCORDION</h3><br />
+
+						<!-- ACCORDION -->
+						<div class="panel-group" id="accordion">
+
+							<!-- accordion item #1 -->
+							<div class="panel panel-default">
+								<!-- accordion link #1 -->
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+											<i class="fa fa-users"></i><!-- icon -->
+											Collapsible Group Item #1
+										</a>
+									</h4>
+								</div>
+								<!-- accordion content #1 -->
+								<div id="collapseOne" class="panel-collapse collapse in">
+									<div class="panel-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								</div>
+							</div>
+
+							<!-- accordion item #2 -->
+							<div class="panel panel-default">
+								<!-- accordion link #2 -->
+								<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+									<i class="fa fa-briefcase"></i><!-- icon -->
+										Collapsible Group Item #2
+									</a>
+								</h4>
+								</div>
+								<!-- accordion content #2 -->
+								<div id="collapseTwo" class="panel-collapse collapse">
+									<div class="panel-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								</div>
+							</div>
+
+							<!-- accordion item #3 -->
+							<div class="panel panel-default">
+								<!-- accordion link #3 -->
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+											<i class="fa fa-random"></i><!-- icon -->
+											Collapsible Group Item #3
+										</a>
+									</h4>
+								</div>
+								<!-- accordion content #3 -->
+								<div id="collapseThree" class="panel-collapse collapse">
+									<div class="panel-body">
+										Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<!-- /ACCORDION -->
+
+					</div>
+				</div>
+
+			</article>
+
+
+			<article class="container">
+
+				<div class="text-left">
+					<h2 class="page-header">CAROUSEL <small>(touch supported)</small></h2>
+
+					<!-- CAROUSEL -->
+					<div class="owl-carousel column" data-navigation="false" data-singleitem="false" data-autoplay="false" data-animation="fadeIn">
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="assets/images/preview/content/team/1.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Diana Joe</strong> 
+								/ CEO
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"></a><!-- google plus -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"></a><!-- pinterest -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-skype"></a><!-- skype -->
+						</div>
+
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="assets/images/preview/content/team/2.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>John Joe</strong> 
+								/ UI Designer
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"></a><!-- google plus -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"></a><!-- pinterest -->
+						</div>
+
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="assets/images/preview/content/team/3.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Diana Joe</strong> 
+								/ UI Designer
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"></a><!-- google plus -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="assets/images/preview/content/team/4.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Albert Joe</strong> 
+								/ Director
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"></a><!-- google plus -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="assets/images/preview/content/team/5.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Felicia Joe</strong> 
+								/ Marketing
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"></a><!-- google plus -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<!-- top image -->
+							<span class="top-image"><img src="assets/images/preview/content/team/1.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Diana Joe</strong> 
+								/ Marketing
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"></a><!-- google plus -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"></a><!-- pinterest -->
+						</div>
+						
+						<!-- carousel item -->
+						<div class="item dragCursor" data-animation="fadeInUp">
+							<span class="top-image"><img src="assets/images/preview/content/team/2.jpg" alt="..." height="200"></span>
+							<!-- member name / occupation -->
+							<h4>
+								<strong>Doggy Joe</strong> 
+								/ Mascot
+							</h4>
+							<!-- short description -->
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt.</p>
+							<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"></a><!-- facebook -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"></a><!-- twitter -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"></a><!-- google plus -->
+							<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"></a><!-- pinterest -->
+						</div>
+					</div>
+					<!-- /CAROUSEL -->
+
+				</div>
+
+			</article>
+
+
+			<article class="container">
+
+				<!-- services columns -->
+				<div class="serviceColumnContainer">
+					<div class="row">
+						<!-- column left -->
+						<div class="col-md-6 text-left">	
+
+							<!-- service #1 -->
+							<div class="serviceColumn animate_from_left">
+								<i class="ico-stack fa fa-leaf"></i>
+								<h3 class="page-header">CREATIVE DESIGN</h3>
+								<p>We design beautiful responsive websites and iOS apps focusing on design, content and a great user experience.</p>
+							</div>
+
+							<!-- service #2 -->
+							<div class="serviceColumn animate_from_left">
+								<i class="ico-stack fa fa-briefcase"></i>
+								<h3 class="page-header">MARKETING</h3>
+								<p>We design beautiful responsive websites and iOS apps focusing on design, content and a great user experience.</p>
+							</div>
+
+						</div>
+
+						<!-- column right -->
+						<div class="col-md-6 text-left animate_from_right">
+
+							<!-- service #3 -->
+							<div class="serviceColumn">
+								<i class="ico-stack fa fa-camera"></i>
+								<h3 class="page-header">PHOTOGRAPHY</h3>
+								<p>We design beautiful responsive websites and iOS apps focusing on design, content and a great user experience.</p>
+							</div>
+
+							<!-- service #4 -->
+							<div class="serviceColumn animate_from_right">
+								<i class="ico-stack fa fa-video-camera"></i>
+								<h3 class="page-header">VIDEO</h3>
+								<p>We design beautiful responsive websites and iOS apps focusing on design, content and a great user experience.</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- /services columns -->
+				
+				<!-- /column services -->
+			</article>
+
+
+			<article class="container">
+
+				<div class="text-left">
+					<h2 class="page-header">PROGRESS BARS</h2>
+
+					<!-- default -->
+					<div class="progress">
+						<div class="progress-bar progress-bar" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100" style="width: 79%">
+							<span class="sr-only">40% Complete (success)</span>
+						</div>
+					</div>
+
+					<!-- success -->
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+							<span class="sr-only">40% Complete (success)</span>
+						</div>
+					</div>
+
+					<!-- info -->
+					<div class="progress">
+						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+							<span class="sr-only">20% Complete</span>
+						</div>
+					</div>
+
+					<!-- warning -->
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+							<span class="sr-only">60% Complete (warning)</span>
+						</div>
+					</div>
+
+					<!-- danger -->
+					<div class="progress">
+						<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+
+
+
+			</article>
+
+
+			<article class="container">
+
+
+				<h2 class="page-header">PAGINATION</h2>
+
+				<!-- PAGINATE -->
+				<div class="text-center">
+					<ul class="pagination">
+						<li class="disabled"><a href="#">prev</a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">next</a></li>
+					</ul>
+				</div>
+				<!-- /PAGINATE -->
+
+				<!-- PAGINATE BIG -->
+				<div class="text-center">
+					<ul class="pagination pagination-lg">
+						<li class="disabled"><a href="#">prev</a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">next</a></li>
+					</ul>
+				</div>
+				<!-- PAGINATE BIG -->
+
+				</div>
+			</article>
+		</section>
+		<!-- /ELEMENTS -->
+
+
+
+
+		<!-- PARALLAX -->
+		<section class="page-name parallax" data-stellar-background-ratio="0.5" style="background-image:url(assets/images/preview/slider/parallax_bg.jpg)">
+			<span class="overlay"></span>
+			<span class="name">
+				<b>Deus	</b> Pricing Tables
+			</span>
+		</section>
+		<!-- PARALLAX -->
+
+
+		<!-- PRICING -->
+		<section id="pricing">
+			<article class="container">
+
+				<!-- pricing item -->
+				<div data-animation="bounceIn" class="pricing">
+					<!-- package name / amount -->
+					<h3>Basic
+						<span>$3</span>
+					</h3>
+					<div class="pricing-detail">
+						<!-- button -->
+						<a class="btn btn-custom" href="#"><i class="fa fa-check"></i> PURCHASE NOW</a>
+						<!-- details -->
+						<ul>
+							<li><b>10GB</b> Disk Space</li>
+							<li><b>100GB</b> Monthly Bandwidth</li>
+							<li><b>20</b> Email Accounts</li>
+							<li><b>Unlimited</b> subdomains</li>			
+						</ul>
+					</div>
+				</div>
+				<!-- /pricing item -->
+
+				<!-- pricing item -->
+				<div data-animation="bounceIn" class="pricing popular">
+					<span class="popular-marker"></span><!-- popular marker -->
+					<!-- package name / amount -->
+					<h3>Standard
+						<span>$9</span>
+					</h3>
+					<div class="pricing-detail">
+						<!-- button -->
+						<a class="btn btn-custom" href="#"><i class="fa fa-check"></i> PURCHASE NOW</a>
+						<!-- details -->
+						<ul>
+							<li><b>10GB</b> Disk Space</li>
+							<li><b>100GB</b> Monthly Bandwidth</li>
+							<li><b>20</b> Email Accounts</li>
+							<li><b>Unlimited</b> subdomains</li>			
+						</ul>
+					</div>
+				</div>
+				<!-- /pricing item -->
+
+				<!-- pricing item -->
+				<div data-animation="bounceIn" class="pricing">
+					<!-- package name / amount -->
+					<h3>Professional
+						<span>$29</span>
+					</h3>
+					<div class="pricing-detail">
+						<!-- button -->
+						<a class="btn btn-custom" href="#"><i class="fa fa-check"></i> PURCHASE NOW</a>
+						<!-- details -->
+						<ul>
+							<li><b>10GB</b> Disk Space</li>
+							<li><b>100GB</b> Monthly Bandwidth</li>
+							<li><b>20</b> Email Accounts</li>
+							<li><b>Unlimited</b> subdomains</li>			
+						</ul>
+					</div>
+				</div>
+				<!-- /pricing item -->
+
+				<!-- pricing item -->
+				<div data-animation="bounceIn" class="pricing">
+					<!-- package name / amount -->
+					<h3>Enterprise
+						<span>$49</span>
+					</h3>
+					<div class="pricing-detail">
+						<!-- button -->
+						<a class="btn btn-custom" href="#"><i class="fa fa-check"></i> PURCHASE NOW</a>
+						<!-- details -->
+						<ul>
+							<li><b>10GB</b> Disk Space</li>
+							<li><b>100GB</b> Monthly Bandwidth</li>
+							<li><b>20</b> Email Accounts</li>
+							<li><b>Unlimited</b> subdomains</li>			
+						</ul>
+					</div>
+				</div>
+				<!-- /pricing item -->
+
+			</article>
+		</section>
+		<!-- /PRICING -->
+
+
+
+		<!-- FOOTER -->
+		<footer id="footer">
+
+			<!-- google map -->
+			<div id="gmap"></div><a href="#" class="gmapClose"></a>
+
+			<!-- footer buttons -->
+			<div id="footerContent">
+				<div class="container">
+
+					<h2 data-animation="bounceIn">KEEP IN TOUCH</h2>
+					<h3>FOLLOW US</h3>
+
+					<!-- 
+						paragraph - short description 
+						OR
+						<div class="spacer"></div>
+					-->
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+					<div class="social">
+						<!-- facebook -->
+						<a target="_blank" href="#" class="socialbtn facebook"><i class="fa fa-facebook"></i>Facebook</a>
+						<!-- twitter -->
+						<a target="_blank" href="#" class="socialbtn twitter"><i class="fa fa-twitter"></i>Twitter</a>
+						<!-- google plus -->
+						<a target="_blank" href="#" class="socialbtn google"><i class="fa fa-google-plus"></i>Google Plus</a>
+						<!-- twitter -->
+						<a target="_blank" href="#" class="socialbtn twitter"><i class="fa fa-linkedin"></i>LinkedIn</a>
+						<!-- skype -->
+						<a target="_blank" href="skype:username?chat" class="socialbtn skype"><i class="fa fa-skype"></i>Skype</a>
+						<!-- google map -->
+						<a href="#" class="gmapShow socialbtn gmap"><i class="fa fa-map-marker"></i>Map</a>
+					</div>
+
+				</div>
+			</div>
+			<!-- /footer buttons -->
+
+		</footer>
+		<!-- /FOOTER -->
+
+
+		<!-- CORE JS FRAMEWORK--> 
+		<script type="text/javascript" src="assets/plugins/pace/pace.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-easing/jquery.easing.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/masonry.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/smoothscroll.js"></script>
+		<script async type="text/javascript" src="assets/plugins/modernizr.min.js"></script>
+		<!-- /CORE JS FRAMEWORK--> 
+
+		<!-- PLUGINS -->
+		<script type="text/javascript" src="assets/plugins/jquery-fitvids/jquery.fitvids.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-appear/jquery.appear.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-countTo/jquery.countTo.js"></script>
+		<script type="text/javascript" src="assets/plugins/nicescroll/jquery.nicescroll.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-scrollto/jquery.scrollTo.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-onepage-nav/jquery.nav.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-owl-carousel/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-easy-pie-chart/jquery.easypiechart.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/prettyPhoto/js/jquery.prettyPhoto.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-stellar/jquery.stellar.min.js"></script>
+		<script type="text/javascript" src="assets/plugins/jquery-bxslider/jquery.bxslider.pack.js"></script>
+		<!-- /PLUGINS -->
+
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
+		<script async type="text/javascript" src="assets/js/contact.js"></script>
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+	</body>
+</html>

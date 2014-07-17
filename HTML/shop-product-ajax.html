@@ -1,0 +1,94 @@
+	<h1>Product Name</h1>
+
+	<!-- Product images -->
+	<div id="productImage">
+
+		<!-- product big image -->
+		<span id="zoom">
+			<img id="productBigImage" src="assets/images/preview/content/shop/6.jpg" alt="" />
+		</span>
+
+		<!-- thumbnails -->
+		<div id="thumbnails">
+			<a class="on" href="assets/images/preview/content/shop/6.jpg"><img src="assets/images/preview/content/shop/6.jpg" height="60" alt="" /></a>
+			<a href="assets/images/preview/content/shop/3.jpg"><img src="assets/images/preview/content/shop/3.jpg" height="60" alt="" /></a>
+			<a href="assets/images/preview/content/shop/5.jpg"><img src="assets/images/preview/content/shop/5.jpg" height="60" alt="" /></a>
+			<a href="assets/images/preview/content/shop/4.jpg"><img src="assets/images/preview/content/shop/4.jpg" height="60" alt="" /></a>
+		</div>
+		<!-- /thumbnails -->
+
+	</div>
+	<!-- /Product images -->
+
+	<!-- product detail -->
+	<form id="productDescription" class="productDescription absolute" method="get" action="shop-cart.html">
+	
+		<!-- hidden fields -->
+		<input type="hidden" name="action" value="cart_add" />
+		<input type="hidden" name="product_id" value="1" />
+
+		<!-- product unique code -->
+		<span class="code">PART NUMBER: 0F3DSS</span>
+		<!-- /product unique code -->
+
+		<!-- product price -->
+		<div class="productRowInfo">
+			<span class="productLabel">Price:</span>
+			<span class="price styleColor">$40.00</span>
+			<span class="oldprice">$43.00</span>
+		</div>
+		<!-- /product price -->
+
+		<div class="row">
+
+			<!-- product color -->
+			<div class="col-xs-2">
+				<label for="product_color">Color</label>
+				<select class="form-control" name="product_color" id="product_color">
+					<option value="red">Red</option>
+					<option value="blue">Blue</option>
+					<option value="cherry">Cherry</option>
+				</select>
+			</div>
+			<!-- /product color -->
+
+			<!-- product size -->
+			<div class="col-xs-2">
+				<label for="product_size">Size</label>
+				<select class="form-control" name="product_size" id="product_size">
+					<option value="l">L</option>
+					<option value="m">M</option>
+					<option value="xxl">XXL</option>
+				</select>
+			</div>
+			<!-- /product size -->
+
+		</div>
+
+
+		<div class="row">
+
+			<!-- quantity + add to cart -->
+			<div class="addCartBtn">
+				<div class="input-group col-xs-4">
+					<input type="text" name="product_qty" id="product_qty" class="text-center form-control" value="1" placeholder="Qty" />
+					<span class="input-group-btn">
+						<button id="addToCartBtn" class="btn btn-custom"><i class="fa fa-shopping-cart"></i> ADD TO CART</button>
+					</span>
+				</div><!-- /input-group -->
+			</div>
+			<!-- /quantity + add to cart -->
+
+		</div>
+
+		<!-- product description -->
+		<div class="desc">
+			<h3>DESCRIPTION</h3>
+			<p>
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.
+			</p>
+		</div>
+		<!-- /product description -->
+
+	</form>
+	<!-- product detail -->

@@ -1,0 +1,11 @@
+@Version 	1.1
+@Date		Tuesday, May 06, 2014
+@Author		Dorin Grigoras
+	* Bootstrap 3.1.1 Update (changes: plugins/bootstrap/)
+	* Bugfix - iPhone/iPad fullscreen (changes: css/style.css , js/scripts.js)
+
+
+@Version 	1.0
+@Date		Saturday  21, 2013
+@Author		Dorin Grigoras
+	* Initial Release

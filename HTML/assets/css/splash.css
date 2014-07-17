@@ -1,0 +1,136 @@
+/** DEMO ONLY
+	USED BY index.html
+ **************************************************************** **/
+html, body {
+	background:#F07057;
+	color:#fff;
+	font-family: 'Open Sans';
+}
+
+body {
+	padding:60px 0;
+	overflow-x:hidden;
+}
+
+img {
+	border:0;
+	width:100%;
+	height:auto;
+}
+
+a, a:focus, a:hover, a:active {
+  outline: 0;
+}
+
+a, a:hover {
+  transition: color 0.1s linear 0s, background-color 0.1s linear 0s !important;
+  color:#fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans';
+	font-weight:300;
+	text-shadow:#aa2b0f 0 0 3px;
+}
+
+h1 {
+	font-size:80px;
+	line-height:80px;
+	color:#3d5054;
+	text-shadow:none;
+}
+
+h2 {
+	font-size:30px;
+	line-height:30px;
+}
+
+h3 {
+	font-size:20px;
+	line-height:20px;
+}
+
+hr {
+	margin:0; padding:0;
+	border:0; 
+	border-bottom:#3d5054 1px solid;
+	margin-top:-20px;
+	margin-bottom:60px;
+}
+
+.btn-custom, .btn-custom.active {
+	background:#F07057;
+	background-image: -webkit-gradient(linear,left 0,left 100%,from(#f28973),to(#F07057));
+	background-image: -webkit-linear-gradient(top,#f28973 0,#F07057 100%);
+	background-image: -moz-linear-gradient(top,#f28973 0,#F07057 100%);
+	background-image: linear-gradient(to bottom,#f28973 0,#F07057 100%);
+	background-image: -moz-linear-gradient(top,#f28973 0,#F07057 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff28973',endColorstr='#ffF07057',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	border-color: #ee5939;
+	color:#fff;
+	text-shadow:#ee5939 1px 1px 1px;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active {
+	background:#ee5939;
+	background-color:#F07057;
+	background-position:0 -30px;
+	border-color: #ee5939;
+	color:#fff;
+}
+
+.group {
+	margin:60px 0;
+	display:block;
+}
+
+.group h3 {
+	padding:6px;
+	background:#F07057;
+	padding:0 20px;
+	display:inline-block;
+	color:#3d5054;
+	text-shadow:none;
+}
+
+.row img {
+	border:#f2826a 5px solid;
+	box-shadow:#6b1b0a 0 0 6px;
+
+	-webkit-transition-duration: 0.3s;
+	   -moz-transition-duration: 0.3s;
+			transition-duration: 0.3s;
+}
+
+.row a:hover img{
+	z-index: 100;
+	position:relative;
+	box-shadow:#521407 0 0 10px;
+
+	-webkit-transform: scale(1.11);
+	   -moz-transform: scale(1.11);
+		 -o-transform: scale(1.11);
+		-ms-transform: scale(1.11);
+			transform: scale(1.11);
+}
+
+.row h4 {
+	margin:20px 0;
+}
+
+.footer {
+	margin:60px 0;
+	display:block;
+}
+
+
+/** Responsive
+ **************************************************************** **/
+@media only screen and (max-width: 768px) {
+	h1 {
+		font-size:55px;
+		line-height:55px;
+	}
+}

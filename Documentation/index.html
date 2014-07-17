@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en-US" id="top">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>Documentation</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras" />
+		<link type="text/css" rel="stylesheet" href="assets/css/shBrush.css" />
+		<link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+		<link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon" />
+	</head>
+	<body class="blue"><!-- empty = black (default) ; green, blue, orange, red, yellow, pink -->
+
+		<!-- WRAPPER -->
+		<div id="wrapper">
+
+			<!-- MIDDLE -->
+			<div id="middle">
+				<!-- title -->
+				<h1><em>DEUS</em>ONE <em> - HTML Template</em></h1>
+				<p class="antet">Template &amp; Documentation by <em>Dorin Grigoras</em></p>
+				<br class="clr" />
+				<!-- title -->
+
+				<!-- INFO -->
+				<p class="info">
+					<b>First of all, thank you for purchasing the template!</b><br />
+					If you have any questions that are beyond the scope of this help file, please feel free to ask your question at: <a rel="nofollow" target="_blank" class="any" href="https://wrapbootstrap.com/user/stepofweb"><em>https://wrapbootstrap.com/user/stepofweb</em></a>.<br />
+					<br />
+					Template available only on <a href="https://wrapbootstrap.com/user/stepofweb">{Wrap}bootstrap</a>.
+					<br /><br />
+
+					<b>Email:</b> <a href="mailto:stepofweb@gmail.com">stepofweb@gmail.com</a><br />
+					<b>Created:</b> December 01, 2013<br />
+					<b>Latest Update:</b> December 16, 2013<br />
+				</p>
+
+				<hr />
+
+				<div class="nNote nWarning">
+					<p class="text-left">
+						Due to local security restrictions, some things will not work locally, especially in Chrome.<br />
+						Everything will work once the files have been uploaded to a webserver. <br /><br />
+						<small>Please note: assets/js/demo.js is for local demo only and contains minified html ajax files. Once uploaded the files to a webserver, delete demo.js</small>
+					</p>
+				</div>
+				<!-- INFO -->
+
+				<!-- content index -->
+				<ol>
+					<li><a href="#f1">Folder Structure</a></li>
+					<li><a href="#f2">HTML Structure</a></li>
+					<li><a href="#f3">CSS Structure</a></li>
+					<li><a href="#f4">JavaScript</a></li>
+					<li><a href="#f5">Icons</a></li>
+					<li><a href="#f6">Image Slider &amp; Carousel</a></li>
+					<li><a href="#f7">Lightbox</a></li>
+					<li><a href="#f8">PHP Scripts</a></li>
+					<li><a href="#f9">Skin</a></li>
+					<li><a href="#f10">Social Icons</a></li>
+					<li><a href="#f11">Responsive</a></li>
+					<li><a href="#f12">Miscellaneous</a></li>
+					<li><a href="#f13">Sources and Credits</a></li>
+					<li><a href="#f14">Updates</a></li>
+				</ol>
+				<!-- content index -->
+
+				<hr />
+
+
+				<!-- content -->
+				<div id="content">
+
+					<!-- #1 -->
+					<div id="f1">
+						<h2>1. Template Folder Structure <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							<b>1. Documentation</b><br />
+							<b>2. /HTML/</b><br />
+								|-- assets<br />
+								|-- | -- css/ <br />
+								|-- | -- images/<br />
+								|-- | -- js/ <br />
+								|-- | -- plugins/<br />
+								|-- php<br />
+							<br /><br />
+<pre>
+<b>/HTML/assets/css/</b> - CSS styles
+<b>/HTML/assets/images/</b> - all images needed by the template
+<b>/HTML/assets/js/</b> - core.js and contact.js - controlls all loaded plugins on the website. contact.js is dedicated for contact form only. 
+<b>/HTML/assets/plugins/</b> - javascripts files (jquery plugins).<br />
+<b>/HTML/php/</b> - contains the php files needed to send emails through contact form. All you have to do is to edit config.inc.php wih your settings (email server).<br />
+</pre>
+						</div>
+					</div>
+
+					<!-- #2 -->
+					<div id="f2">
+						<h2>2. HTML Structure <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							The template is based on Bootstrap Framework - <a href="http://getbootstrap.com/">http://getbootstrap.com/</a><br /><br />
+							Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. It includes predefined classes for easy layout options, as well as powerful mixins for generating more semantic layouts.<br /><br />
+
+<pre class="brush: html">
+	<div class="row">
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	  <div class="col-md-1">.col-md-1</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-8">.col-md-8</div>
+	  <div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	  <div class="col-md-4">.col-md-4</div>
+	</div>
+	<div class="row">
+	  <div class="col-md-6">.col-md-6</div>
+	  <div class="col-md-6">.col-md-6</div>
+	</div>
+</pre>
+							<br />
+							<p>
+								If you need more info, please visit <a href="http://getbootstrap.com/css/#grid">http://getbootstrap.com/css/#grid</a>
+							</p>
+
+							<br />							
+							<b>W3C Valid</b><br />
+							HTML code is fully valid on <a href="http://validator.w3.org/#validate_by_input">validator.w3.org</a>.
+
+						</div>
+					</div>
+
+					<!-- #3 -->
+					<div id="f2">
+						<h2>3. CSS Structure <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							The organization of the CSS is one of our priorities.<br />
+							These are the CSS file we're using in the template:<br />
+							<br />
+
+<pre>
+- <b>bootstrap.css</b> - Generic styles, resets & normalization
+
+- <b>style.css</b> - The layout structure - sliders, boxes, titles, etc...
+
+- <b>color/</b> -  Folder containing colors
+
+- <b>blog.css</b> - Blog Layout
+
+- <b>shop.css</b> - Shop Layout
+</pre>
+
+							<br />
+							<b>Google Fonts</b><br />
+							Default Font is "Open Sans"
+
+							<br /><br />
+							<b>Animation effect</b><br />
+							Add to any element: data-animation="EFFECT" where "EFFECT" is the effect from animation.css<br />
+							<a href="https://daneden.me/animate/">https://daneden.me/animate/</a><br />
+							If you want to disable all animations without removeing one by one from HTML code, set in core.js: _enableAnimation to false. This function will disable all animations.
+						</div>
+					</div>
+
+					<!-- #4 -->
+					<div id="f4">
+						<h2>4. Javascript <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							The template uses some advanced jQuery functions.<br /> 
+							Almost everything is controlled by scripts.js<br /><br />
+							If you want to add more jquery plugins, it's recommended to use your custom javascript file.<br /><br />
+							<br />
+
+							<b>Nicescroll</b><br />
+							To disable nicescroll, just remove from HTML tag:  class="nicescroll"<br />
+							<br />
+
+							<b>prettyPhoto</b><br />
+							To use prettyPhoto, add to A tag: data-photo="prettyPhoto"<br />
+							<br />
+
+							<b>Google Map</b><br />
+							Edit scripts.js file: $googlemap_latitude and $googlemap_longitude<br />
+							<br />
+
+							<b>Javascript Structure</b><br />
+<pre>
+- <b>scripts.css</b> - main javascript
+
+- <b>contact.js</b> - contact section
+
+- <b>shop.js</b> - shop javascript
+</pre>
+						</div>
+					</div>
+
+					<!-- #5 -->
+					<div id="f5">
+						<h2>5. Icons <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							Font Awesome gives you scalable vector icons that can instantly be customized - size, color, drop shadow, and anything that can be done with the power of CSS.<br /><br />
+							If you need more information, please visit <a href="http://fontawesome.io/">http://fontawesome.io/</a>.<br /><br />
+
+							<b>Usage</b><br />
+<pre class="brush: html">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-gear"></i>
+<i class="fa fa-info-circle"></i>
+<i class="fa fa-pencil-square"></i>
+...
+</pre>
+							<br />
+						</div>
+					</div>
+
+					<!-- #6 -->
+					<div id="f6">
+						<h2>6. Image  Slider &amp; Carousel <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+<b>Full Slider</b><br />
+<pre class="brush: html">
+<!-- FULL SLIDER CODE -->
+<section class="contentFullSlider">
+
+	<!-- loader image -->
+	<img class="imgLoader" src="assets/images/ajax-loader.gif" alt="loading..." width="32" height="32" />
+	<!-- slider controlls -->
+	<a href="#" class="sliderPrev"></a><a href="#" class="sliderNext"></a>
+
+	<div class="fullSlider">
+
+		<!-- slider item -->
+		<div>
+			<img src="1.jpg" alt="" />
+			<!-- image caption -->
+			<div class="raster">
+				<div class="slider-caption">
+					<div class="inner">
+						<h1>TITLE #1</h1>
+						<h2>SUBTITLE #1</h2>
+						<p>PARAGRAPH #1</p>
+						<a class="btn btn-custom btn-lg" href="#">BUTTON #1</a>
+					</div>
+				</div><!-- /image caption -->
+			</div><!-- /raster -->
+		</div>
+		<!-- /slider item -->
+
+		<!-- slider item -->
+		<div>
+			<img src="2.jpg" alt="" />
+			<!-- image caption -->
+			<div class="raster">
+				<div class="slider-caption">
+					<div class="inner">
+						<h1>TITLE #2</h1>
+						<h2>SUBTITLE #2</h2>
+						<p>PARAGRAPH #2</p>
+						<a class="btn btn-custom btn-lg" href="#">BUTTON #2</a>
+					</div>
+				</div><!-- /image caption -->
+			</div><!-- /raster -->
+		</div>
+		<!-- /slider item -->
+
+	</div>
+
+</section>
+<!-- /FULL SLIDER CODE -->
+</pre>
+
+
+<br /><br />
+
+
+<b>Content Slider</b><br />
+<pre class="brush: html">
+<!-- CONTENT SLIDER CODE -->
+<div class="bxsliderContainer">
+	<ul class="bxslider">
+		<li><img src="1.jpg" alt="" /></li>
+		<li><img src="2.jpg" alt="" /></li>
+	</ul>
+</div>
+<!-- /CONTENT SLIDER CODE -->
+</pre>
+
+
+<br /><br />
+
+<b>Carousel</b><br />
+<pre class="brush: html">
+<!-- CAROUSEL CODE -->
+<div class="owl-carousel" data-navigation="false" data-singleitem="false" data-autoplay="true" data-animation="bounceIn">
+	<div class="item dragCursor"><img src="1.png" alt="..." /></div>
+	<div class="item dragCursor"><img src="2.png" alt="..." /></div>
+</div>
+<!-- CAROUSEL CODE -->
+</pre>
+							<br />
+						</div>
+					</div>
+
+					<!-- #7 -->
+					<div id="f7">
+						<h2>7. Lightbox <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							<a href="https://github.com/scaron/prettyphoto">prettyPhoto</a> is a jQuery lightbox clone.<br /> 
+							Not only does it support images, it also support for videos, flash, YouTube, iframes and ajax. It’s a full blown media lightbox.<br />
+							<p>
+								It is very easy to setup, yet very flexible if you want to customize it a bit. Plus the script is compatible in every major browser, even IE6. <br />
+								It also comes with useful APIs so prettyPhoto can be launched from nearly anywhere (yes, that includes Flash)!
+							</p>
+
+							<b>USAGE</b><br />
+<pre class="brush: html">
+<a href="image.jpg" data-photo="prettyPhoto">
+	<img src="thumbnail.jpg" />
+</a>
+</pre>
+							<br />
+						</div>
+					</div>
+
+					<!-- #8 -->
+					<div id="f8">
+						<h2>8. PHP Scripts <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							Regarding contact form as main part of Contact Us section, only thing you need to do is to setup your email address.<br />
+							Please open "<b>/php/config.inc.php</b>" file and edit with your own credentials.
+							</p>
+								<a href="http://phpmailer.worxware.com/">PHPMailer</a> is used to send emails - you need a valid email account that accept SMTP connections.
+							</p>
+
+<pre class="brush: php">
+// SMTP Server Settings
+$config['smtp_host'] 			= 'ssl://smtp.gmail.com';   // eg.: smtp.mandrillapp.com
+$config['smtp_port'] 			= 465;						// eg.: 587
+$config['smtp_user'] 			= ''; 						// you@gmail.com
+$config['smtp_pass'] 			= '';						// password
+$config['smtp_ssl']				= false;					// should remain false
+
+// Who receive all emails?
+$config['send_to']				= 'you@gmail.com';			// destination of all emails sent throught contact form
+
+// Email Subject
+$config['subject']				= 'Contact Form';			// subject of emails you receive
+</pre>
+							<br />
+							<div class="nNote nInformation">
+								<p class="text-left">This will work only on a webserver (php installed).</p>
+							</div>
+							<p>
+								If something is not working, be sure that the port you use for SMTP conections, is not firewalled.<br />
+								Example: gmail use port 465. Be sure that port 465 is not firewalled.<br />
+								Also, check carefuly your /php/config.inc.php for errors or incorrect username,password, host or port.
+							</p>
+						</div>
+					</div>
+
+					<!-- #9 -->
+					<div id="f9">
+						<h2>9. Skin <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							The template is set to use "orange.css" skin as default.
+
+							<p>
+								All skin colors are located on <b>assets/css/color/</b>
+							</p>
+<pre class="brush: html">
+		<!-- CSS TEMPLATE -->
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color/orange.css" rel="stylesheet" type="text/css" /><!-- demo default style -->
+
+
+		<!-- colors : demo only -->
+		<link href="assets/css/color/blue.css" rel="alternate stylesheet" type="text/css" title="blue" />
+		<link href="assets/css/color/orange.css" rel="alternate stylesheet" type="text/css" title="orange" />
+		<link href="assets/css/color/green.css" rel="alternate stylesheet" type="text/css" title="green" />
+		<link href="assets/css/color/red.css" rel="alternate stylesheet" type="text/css" title="red" />
+		<link href="assets/css/color/yellow.css" rel="alternate stylesheet" type="text/css" title="yellow" />
+		<link href="assets/css/color/gray.css" rel="alternate stylesheet" type="text/css" title="gray" />
+</pre>
+							<p>
+								Remove all files except layout.css and the color you want to use.
+							</p>
+							<p>
+								Example: If you want red color, keep only layout.css and orange.css<br />
+								Very important: remember to change rel="alternate stylesheet"  to   rel="stylesheet".
+							</p>
+
+							<div class="nNote nInformation">
+								<p class="text-left">To remove style switcher, delete the HTML code, CSS and javascript. See Below.</p>
+							</div>
+
+<pre class="brush: html">
+
+		<!-- STYLESWITCHER -->
+		<link href="assets/plugins/styleswitcher/styleswitcher.css" rel="stylesheet" type="text/css"/>
+
+		<!-- STYLESWITCHER -->
+		<div id="switcher">
+			<div class="content-switcher" >        
+				<h4>STYLE OPTIONS</h4>
+
+				<p>Color Skin:</p>
+				<ul style="width:150px;">            
+					<li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" class="color" style="background-color:#F07057"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" class="color" style="background-color:#50657B"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('green'); return false;" class="color" style="background-color:#7cb91c"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('red'); return false;" class="color" style="background-color:#e93735"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('pink'); return false;" class="color" style="background-color:#f73f69"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('mauve'); return false;" class="color" style="background-color:#c91ac9"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" class="color" style="background-color:#f1c40f"></a></li>
+					<li><a href="#" onclick="setActiveStyleSheet('gray'); return false;" class="color" style="background-color:#333333"></a></li>
+				</ul>        
+
+				<p>Home Page Template:</p>
+				<div class="styled-select">
+					<select onchange="window.document.location.href=this.options[this.selectedIndex].value;">  
+						
+						<optgroup label="Standard">
+							<option selected="selected">01. Fullscreen Slider</option>
+							<option value="index-2.html">02. Image Only</option>
+						</optgroup>
+
+						<optgroup label="Video Frame &amp; Parallax">
+							<option value="index-3.html">03. Parallax &amp; Video - full</option>
+							<option value="index-4.html">04. Parallax &amp; Video - Normal</option>
+						</optgroup>
+
+						<optgroup label="Text &amp; Parallax">
+							<option value="index-5.html">05. Text with Parallax Bg</option>
+							<option value="index-6.html">06. Text Only - Normal</option>
+							<option value="index-7.html">07. Text Only - Full</option>
+						</optgroup>
+
+						<optgroup label="Video Background">
+							<option value="index-8.html">08. Video Background - Full</option>
+							<option value="index-9.html">09. Video Background - Normal</option>
+						</optgroup>
+
+					</select>
+				</div>
+
+				<div id="hideSwitcher">&times;</div>
+			</div>
+		</div>
+		<div id="showSwitcher"><i class="fa fa-tint"></i></div>
+		<!-- /STYLESWITCHER -->
+
+		JAVASCRIPT - AT THE BOTTOM
+		<script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+</pre>
+<p>
+	Remove these lines to remove the switcher!
+</p>
+							<br />
+						</div>
+					</div>
+
+					<!-- #10 -->
+					<div id="f10">
+						<h2>10. Social Icons <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							Icons are retina redy, (font awsome).
+<pre class="brush: html">
+	<a target="_blank" href="#" class="rounded-icon social fa fa-facebook"><!-- facebook --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-twitter"><!-- twitter --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-google-plus"><!-- google plus --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-pinterest"><!-- pinterest --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-linkedin"><!-- linkedin --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-vimeo-square"><!-- vimeo --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-flickr"><!-- flickr --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-skype"><!-- skype --></a>
+	<a target="_blank" href="#" class="rounded-icon social fa fa-rss"><!-- rss --></a>
+</pre>
+
+							<p>
+								Also, you can use all social icons that <a href="http://fontawesome.io/icons/#brand">fontawsome</a> supports.
+							</p>
+						</div>
+					</div>
+
+					<!-- #11 -->
+					<div id="f11">
+						<h2>11. Responsive <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							This template is fully responsive.
+					</div>
+
+					<!-- #11 -->
+					<div id="f12">
+						<h2>12. Miscellaneous <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							
+							Optional spacer, 60px height:
+<pre class="brush: html">
+	<div class="spacer"><!-- 60px spacer --></div>
+</pre>
+
+							<br />
+							Effects (<a href="https://daneden.me/animate/" target="_blank">animation.css</a>):
+<pre class="brush: html">
+	<header>
+		<h2 data-animation="bounceIn">SECTION TITLE</h2>
+	</header>
+</pre>
+
+							<br />
+							Javascript effects (lightweight):
+<pre class="brush: html">
+		<h2 class="animate_fade_in">SECTION TITLE</h2>
+		
+		Available Javascript Effects (add to class):
+			- animate_from_top
+			- animate_from_bottom
+			- animate_from_left
+			- animate_from_right
+			- animate_fade_in
+</pre>
+
+					</div>
+
+					<!-- #13 -->
+					<div id="f13">
+						<h2>13. Sources and Credits <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							<a href="http://jquery.com/" target="_blank">jQuery</a><br />
+							<a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">jQuery Easing</a><br />
+							<a href="https://github.com/scottjehl/Respond" target="_blank">Respond</a><br />
+							<a href="http://www.google.com/fonts/" target="_blank">Google Fonts</a><br />
+							<a href="http://fontawesome.io/" target="_blank">Icons Font-face</a><br />
+							<a href="https://daneden.me/animate/" target="_blank">animation.css</a><br />
+							<a href="http://github.hubspot.com/pace/docs/welcome/" target="_blank">Pace plugin</a><br />
+							<a href="http://getbootstrap.com/" target="_blank">Bootstrap 3</a><br />
+							<a href="http://isotope.metafizzy.co/" target="_blank">Isotope Plugin (developer license)</a><br />
+							<a href="http://masonry.desandro.com/" target="_blank">Masonry plugin</a><br />
+							<a href="http://fitvidsjs.com/" target="_blank">Fitvids plugin</a><br />
+							<a href="https://github.com/morr/jquery.appear" target="_blank">Appear plugin</a><br />
+							<a href="https://github.com/inuyaksa/jquery.nicescroll" target="_blank">Nicescroll</a><br />
+							<a href="http://demos.flesler.com/jquery/scrollTo/" target="_blank">ScrollTo</a><br />
+							<a href="http://owlgraphic.com/owlcarousel/" target="_blank">Owl Carousel</a><br />
+							<a href="http://rendro.github.io/easy-pie-chart/" target="_blank">Easy Pie Chart</a><br />
+							<a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/" target="_blank">PrettyPhoto</a><br />
+							<a href="http://bxslider.com/" target="_blank">bxSlider</a><br />
+							<a href="http://cubiq.org/iscroll-5-ready-for-beta-test" target="_blank">iScroll</a><br />
+							<a href="http://www.jacklmoore.com/zoom" target="_blank">Image Zoom</a><br />
+							<a href="http://markdalgleish.com/projects/stellar.js/" target="_blank">Stellar</a><br />
+							<a href="http://phpmailer.worxware.com/" target="_blank">phpmailer - contact form</a><br />
+
+							<br />
+
+							Images: stepofweb, <a href="http://www.flickr.com/photos/92334668@N07/">Flickr</a>
+						</div>
+					</div>
+
+					<!-- #14 -->
+					<div id="f14">
+						<h2>14. Updates <a class="toTop" href="#top">top</a></h2>
+						<div class="content">
+							IMPORTANT: Create a backup of your project before an update.<br /> 
+							It's highly recommended to create your own css/js files if you make changes.<br />
+						</div>
+					</div>
+
+				</div>
+				<!-- content -->
+
+				<br class="clr" />
+			</div>
+			<!-- MIDDLE -->
+
+					<div class="nNote nInformation">
+						<p>
+							CONTACT US IF YOU HAVE QUESTIONS<br />
+							<a target="_blank" href="https://wrapbootstrap.com/user/stepofweb" class="themelink">- stepofweb -</a>
+						</p>
+					</div>
+		</div>
+		<!-- WRAPPER -->
+
+		<script type="text/javascript" src="assets/js/script.js"></script>
+		<script src="assets/js/shBrush/shCore.js"></script>
+		<script src="assets/js/shBrush/shBrushXml.js"></script>
+		<script src="assets/js/shBrush/shBrushPhp.js"></script>
+		<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+	</body>
+</html>
